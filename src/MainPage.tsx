@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './App.css';
+import './MainPage.css'; // Estilos específicos de MainPage
 
 const MainPage: React.FC = () => {
   return (

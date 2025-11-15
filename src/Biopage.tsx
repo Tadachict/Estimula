@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Biopage.tsx'; // CSS específico para la biografía
+import './BioPage.css';
 
 const BioPage: React.FC = () => {
   const navigate = useNavigate();
