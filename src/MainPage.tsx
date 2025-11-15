@@ -89,18 +89,6 @@ const MainPage: React.FC = () => {
         </a>
       </div>
 
-
-
-
-
-      
-
-
-      
-
-
-      
-
       <div className="contact-section">
         <h3>Contacto</h3>
         <p>📍 Dirección: Calle Agramonte Bonao, Monseñor Nouel, Rep. Dominicana</p>
