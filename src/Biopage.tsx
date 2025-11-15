@@ -4,13 +4,14 @@ import './BioPage.css';
 
 const BioPage: React.FC = () => {
   const navigate = useNavigate();
+  const base = import.meta.env.BASE_URL; // Base URL para producción
 
   return (
     <div className="bio-container">
       <div className="bio-card">
         {/* Imagen de la profesional */}
         <img 
-          src="/Ka.jpg" 
+          src={base + 'Ka.jpg'} 
           alt="Kasandra Rodriguez" 
           className="bio-image" 
         />
